@@ -7,18 +7,13 @@ Genome sequencing via NGSEP is the emphasis here. As it is relatively small (i.e
 
 Genome sequencing begins by mapping reads via the `ReadsAligner` command of NGSEP as follows:
 
-<!--->
-correct paths - account for blob storage 
-explain mapping reads 
-<--->
+<!--- correct paths - account for blob storage & explain mapping reads --->
 
 ```bash
 java -jar ~/javaPrograms/NGSEPcore.jar ReadsAligner -r ../reference/Saccharomyces_cerevisiae.fa -i ../reads/ER7A_1.fastq.gz -i2 ../reads/ER7A_2.fastq.gz -s ER7A -o ER7A.bam >& ER7A_aln.log
 ```
 
-<!--->
-log file needed? 
-<--->
+<!--- log file needed? --->
 
 The rest of the input to NGSEP can be delineated as follows:
 
@@ -35,9 +30,7 @@ Copy and paste the above NGSEP `ReadsAligner` command into the "command line" fi
 
 The Azure Batch task you've created will take some time to run - approximately 15 minutes on one of the compute nodes. 
 
-<!--->
-need to verify 
-<--->
+<!--- need to verify --->
 
 The output of NGSEP's `ReadsAligner` will be available via Azure Batch. The binary-format output (i.e., the BAM file) for the ER7A parental strain will be written as output to Azure blob storage. 
 
