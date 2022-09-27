@@ -24,6 +24,8 @@ The full list of NGSEP commands will be available as the output of the task run 
 
 NGSEP was executed on a compute node of the Azure Batch service. The compute node makes use of a customized software image. In addition to the operating system (Linux Ubuntu 18.04), this software image includes a version of the Java runtime environment along with NGSEP. 
 
+<!--- add arch schematic of Batch service implementation --->
+
 > **Note:** 
 > The Genomics Analysis module makes use of a virtual machine (VM) running Linux. You'll be able to make use of this VM to reveal more about this custom software image.
 
