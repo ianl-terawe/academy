@@ -32,7 +32,7 @@ The Azure Batch task you've created will take some time to run - approximately 1
 
 <!--- need to verify --->
 
-The output of NGSEP's `ReadsAligner` will be available via Azure Batch. The binary-format output (i.e., the BAM file) for the ER7A parental strain will be written as output to Azure blob storage. 
+The output of NGSEP's `ReadsAligner` will be available via Azure Batch. The binary-format output (i.e., the BAM file) for the ER7A parental strain will be written as output to Azure blob storage. The BAM file has the same reads that were present in the FASTQ input files with one major difference: the reads in the BAM file are aligned with the reference genome (namely _Saccharomyces cerevisiae_).
 
 The sample of interest includes a second strain. Thus, the same NGSEP command needs to be re-run against this strain as follows:
 
@@ -42,6 +42,20 @@ java -jar ~/academy/bin/NGSEPcore.jar ReadsAligner -r ../reference/Saccharomyces
 
 The details of the NGSEP options and arguments are analogous to the delineation provided previously. 
 
+<!--- HERE --->
+
+Use will be made of the BAM file in the Genomics Analysis module. In some case, it will prove convenient to make use of a sorted version of this BAM file. To sort reads for both input strains according to their position in the reference genome, run the following commands via the batch service:
+
 ```bash
 java -jar ~/javaPrograms/picard.jar SortSam SO=coordinate CREATE_INDEX=true TMP_DIR=tmpdir_sort_ER7A I=ER7A.bam O=ER7A_sorted.bam >& ER7A_sort.log
 ```
+
+and 
+
+```bash
+java -jar ~/academy/bin/picard.jar SortSam SO=coordinate CREATE_INDEX=true TMP_DIR=tmpdir_sort_CBS4C I=CBS4C.bam O=CBS4C_sorted.bam >& CBS4C_sort.log.         
+```
+
+Here, the mapped reads from NGSEP (namely `ER7A.bam` and `CBS4C.bam`) are sorted by [Picard](https://github.com/broadinstitute/picard) - literally a "... set of Java command line tools for manipulating high-throughput sequencing (HTS) data and formats ..." available from [The Broad Institute](https://www.broadinstitute.org/). Note that use is made of a temporary directory for sorting purposes in both cases. For additional details regarding use of Picard, consult the documentation [here](https://broadinstitute.github.io/picard/).
+
+With the reads of the two yeast strains mapped against the reference genome (_Saccharomyces cerevisiae_), the final section of this module places emphasis on statistics. 
