@@ -1,0 +1,1 @@
+<!--- options threads vs. emb parallel --->

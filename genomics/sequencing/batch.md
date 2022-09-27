@@ -20,9 +20,7 @@ This image captures only a _partial_ list of NGSEP's modules; included is a brie
 
 The full list of NGSEP commands will be available as the output of the task run by Azure Batch. Once your task is complete, view the output by clicking on "View Output". 
 
-<!---
-fix the above once UI is known 
---->
+<!--- fix the above once UI is known --->
 
 NGSEP was executed on a compute node of the Azure Batch service. The compute node makes use of a customized software image. In addition to the operating system (Linux Ubuntu 18.04), this software image includes a version of the Java runtime environment along with NGSEP. 
 
