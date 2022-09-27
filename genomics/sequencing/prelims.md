@@ -41,5 +41,5 @@ For those lacking a background in genetics or statistics, a variety of resources
 
 ## Problem Statement 
 
-
+Frame as a problem 
 Ref genome of unk origin 
