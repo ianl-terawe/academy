@@ -16,7 +16,7 @@ The purpose of this simple task is to ensure NGSEP is running correctly via Azur
 
 Once complete, you should output similar to:
 
-![NGSEP commands](/media/ngsep_commands_partial.jpg "NGSEP commands ref")
+![NGSEP commands](/media/ngsep_commands_partial.png "NGSEP commands ref")
 
 , type
 NGSEP is included in the software image available 
