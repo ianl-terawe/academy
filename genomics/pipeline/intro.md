@@ -43,7 +43,7 @@ The graphical representation provided below affords the following insights:
 - In some cases, it may prove necesary to carefully repeat the same set of steps in the same order with the same set of parameters - e.g., variants discovery should establish the same maximum allowable value for a base quality score across samples of interest (to avoid this being a source of bias)
 
 > **Note:**
-> graph is a DAG
+> This graph is a DAG. 
 
 Taken collectively, the concerns raised here tease out the fundamental requirements for **genomics pipelines** - i.e., the means for executing a sequence of steps. In this module, emphasis is given to several options for such pipelines that are available on Azure. 
 
