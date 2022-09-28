@@ -17,6 +17,8 @@ java -jar ~/javaPrograms/NGSEPcore.jar ReadsAligner -r ../reference/Saccharomyce
 
 <!--- log file needed? --->
 
+<!--- could each of the FASTQ files be reads aligned indep? If so, how would the results be combined? --->
+
 NGSEP has been written in the Java programming language and packaged for use as a Java ARchive (JAR) file - a 'zip-inspired' file format for aggregating many files together.  
 
 The rest of the input to NGSEP can be delineated as follows:
