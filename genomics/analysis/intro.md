@@ -1,0 +1,3 @@
+# Introduction 
+
+In the first module of this course, two parental strains of an unknown yeast species were sequenced genetically against a reference yeast genome, namely _Saccharomyces cerevisiae_. Mapped reads were ultimately captured in two, sorted BAM files; thus, reads for both input strains were sorted according to their position in the reference genome. Sorted BAM files were used to quantify the results of the reads mapping via various statistical measures. Here, these same files are used for a variety of purposes - starting with the discovery of variants. 

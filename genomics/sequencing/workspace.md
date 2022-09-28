@@ -1,4 +1,4 @@
-# Running Batch Workloads 
+# Workspace Introduction 
 
 Open the Workspace for this module. This Workspace provides a _simplified_ interface for Azure Batch - a workload manager that allows you to submit jobs and tasks.
 

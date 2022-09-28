@@ -17,6 +17,8 @@ java -jar ~/javaPrograms/NGSEPcore.jar ReadsAligner -r ../reference/Saccharomyce
 
 <!--- log file needed? --->
 
+NGSEP has been written in the Java programming language and packaged for use as a Java ARchive (JAR) file - a 'zip-inspired' file format for aggregating many files together.  
+
 The rest of the input to NGSEP can be delineated as follows:
 
 - The reference genome - indicated by the `-r` flag, this reference is _Saccharomyces cerevisiae_ detailed in FASTA format
