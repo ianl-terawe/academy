@@ -1,4 +1,4 @@
-# Variants discovery and genotyping over multiple samples
+# Discovering Variants and Genotyping 
 
 Assuming your [Workspace is ready for use](/genomics/analysis/workspace.md), type the `MultisampleVariantsDetector` command of NGSEP at the Linux shell prompt as follows:
 

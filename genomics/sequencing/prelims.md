@@ -13,7 +13,7 @@ Upon completion of this module, the student will know:
 - How genetic sequencing can be achieved via various computational tasks 
 - How comparisons can be made between sequences of unknown origin relative to some reference genome, and drawn out via various statistical measures 
 - How cloud-based infrastructures are ideally suited computational platforms for genomics workloads
-- How genomics sequencing establishes a framework for subsequent analyses 
+- How genomics sequencing establishes a foundation for subsequent analyses 
 - How the demands of productions workloads can be addressed in practice 
 
 ### Skills 
