@@ -20,6 +20,8 @@ The options and arguments of NGSEP's `MultisampleVariantsDetector` command are a
 - Output - indicated by the `-o` flag, `yeastDemo.vcf` is the name of the Variant Call Format (VCF) file that comprises the output 
 - Redirected standard output - redirected as indicated above, standard output and standard error are stored in a log file 
 
+Refer to the [NGSEP reference](https://sourceforge.net/projects/ngsep/files/Library/) for additional details regarding its `MultisampleVariantsDetector` command.
+
 > **Note:**
 > The file `Saccharomyces_cerevisiae_STRs.txt` can be derived from the reference genome data via an `awk` incantation. Refer to the [NGSEP Tutorial](https://sourceforge.net/projects/ngsep/files/training/Tutorial.txt/download) for the details. 
 
