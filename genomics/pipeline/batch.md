@@ -32,6 +32,8 @@ Using the interface for Azure Batch in the Workspace, ensure you indicate the ne
 
 <!--- screenshot req'd --->
 
+## Parallelized Dependent Tasks 
 
+stats ... 
 
 <!--- workflow vs. pipeline  --->
