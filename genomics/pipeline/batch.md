@@ -4,4 +4,6 @@
 
 ## Dependent Tasks 
 
-workflow vs. pipeline 
+Suppose ... using the example from Module 1 ... 
+
+<!--- workflow vs. pipeline --->
