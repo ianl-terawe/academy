@@ -98,3 +98,8 @@ Notably absent from this pseudocode is means for interacting with the batch syst
 
 ## Reusable Batch Based Pipelines
 
+Up to this point, use has been made of a Workspace that provides a customized GUI for Azure Batch that supports task dependencies. Implementation of a reusable pipeline, as detailed via the pseudocode above for example, would necessitate additional customization of this GUI. 
+
+Alternatively, command-line and programmatic interfaces for Azure Batch exist. Any of these interfaces would permit implementation of a reusable pipeline based on the pseudocode provided above. 
+
+Even though implmentation and use of a reusable pipeline are beyond the current scope, the feasibility of the same is clear. Subsequent sections delve into the details of reusable pipelines for genomics in greater detail. 
