@@ -103,3 +103,18 @@ Up to this point, use has been made of a Workspace that provides a customized GU
 Alternatively, command-line and programmatic interfaces for Azure Batch exist. Any of these interfaces would permit implementation of a reusable pipeline based on the pseudocode provided above. 
 
 Even though implmentation and use of a reusable pipeline are beyond the current scope, the feasibility of the same is clear. Subsequent sections delve into the details of reusable pipelines for genomics in greater detail. 
+
+## Additional Considerations 
+
+Motivated by Module 1, a simple example has been employed for the purpose of illustrating reusable pipelines. Obviously, limitations exist. For example, parental strains of the unknown yeast sample were split across two files. As this won't always be the case, the 'genericization process' will need to account for this variability. 
+
+The pipeline considered was comprised of five steps. Clearly, this won't address all needs. 
+
+The nature of genomics is such that such nuances need to be accounted for. Not surprisingly then, support for genomics pipelines is a subject unto itself; an introduction is provided in a subsequent section. 
+
+From this section, however, the following emerge as the high-level requirements for genomics pipelines:
+
+- A means for **describing** the entire pipeline must exist. Any 'pipeline language' must permit articulation of tasks, account for their requirements (e.g., input and output data, minimum numbers of vCPUs, amount of RAM), dependencies, etc. Being able to account for the repetitiveness of similar tasks is desirable, if not essential.
+- A means for **executing** tasks. 
+
+<!--- could elaborate --->
