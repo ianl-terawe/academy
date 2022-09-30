@@ -1,7 +1,5 @@
 # Some Preliminaries 
 
-<!--- edit to cog serv req'd --->
-
 From objectives to prerequisites, some preliminaries are the emphasis here. This section concludes with a framing in terms of a problem statement. 
 
 ## Objectives 
