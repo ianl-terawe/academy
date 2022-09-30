@@ -1,5 +1,7 @@
 # Operationalizing Models 
 
+## Overview via Azure Machine Learning 
+
 Jupyter Notebooks and IDEs allow developers of Deep Learning applications to run their code. When crafting prototypes of algorithmic implementations to entire models, this simplest of approaches can be effective for training, validation, and inferencing purposes. However, the need to properly operationalize the lifecycle of Deep Learning models can escalate rapidly – even before production implementations are established. 
 
 ![AML Overview](/datascience/mlops/media/automl.png "AML Overview")
@@ -20,22 +22,10 @@ Working progressively from left-to-right in the above figure, the essentials of 
 
 - CI/CD – When it comes to Machine Learning applications, change is inevitable. For example, the need to incorporate more-diverse sets of data may trigger the need for retraining a Deep Learning application. As requirements evolve, so will the code, algorithms, methods, etc., needed to realize the application. Making use of code repositories (e.g., via GitHub) is therefore a best practice – a practice whose value escalates rapidly when a development team is involved (as opposed to an isolated individual). Use of GitHub is a prerequisite for implementing DevOps principles. For example, when changes to code are made, a cycle of Continuous Integration and Continuous Deployment (CI/CD) can be enabled through use of Azure DevOps. As illustrated in the figure, this Azure DevOps integration can trigger the retraining of a model. And assuming the retrained model can be properly validated, subsequent deployment and monitoring follows to complete this valuable DevOps feedback loop. 
 
+## Azure Machine Learning for MLOps
 
+Taken collectively then, Azure ML operationalizes the development, use, and ongoing maintenance of Machine and Deep Learning applications – in other words, it offers lifecycle management from end-to-end. Although it has not been drawn out here to any degree, Azure ML can be applied to multiple applications. For example, using its innate capability to compose applications into interdependent workflows, software pipelines are a core competence of Azure ML. 
 
+From model lifecycle management to pipelined applications, Azure ML delivers state-of-the-art capabilities for **Machine Learning Operations (MLOps)** in the setting of a public cloud. Even though it possesses enterprise-grade capabilities that may only become relevant as production applications are scaled in response to demand, it is important to note that there is absolutely no downside to adopting Azure ML at outset. In other words, from the earliest stages of model prototyping, it is a best practice to adopt Azure ML. As introduced above, Azure ML offers possibilities for better informing and rapidly advancing models during the earliest stages of development. Moreover, as needs inevitably escalate from modest to increasingly demanding, Azure ML can offer considerable value – end-to-end value in the lifecycle management of pipelined applications.
 
-
-
-
-
-
-
-
-<!--- here or intro? edit needed --->
-
-At the outset, AI models can be prototyped on an isolated laptop. As their value becomes evident, and the need arises to transition them into more of a production deployment, operationalizing at scale can become a serious impediment to progress. In fact, redeploying a framework for Deep Learning from a laptop to more of an enterprise server, cluster, or cloud, may not resolve the challenges associated with operationalization at scale. Once again, Azure’s PaaS offering delivers tangible benefits in ensuring the transition from prototyping in the small to operationalizing at scale can be made as seamlessly as possible. 
-
-## Accounting for Scale 
-
-With respect to the use case considered here, the matter of scalability was addressed as a capability demanded by enterprise-grade offerings. Scale, of course, resonates soundly with the very notion of the public cloud; consequently, scale is codified into the DNA of CSPs. When it comes to use of the cloud then, scalability equates to table stakes. While this comprises a necessary condition for operationalizing AI at scale in the cloud, it is not a sufficient condition to guarantee scale.
-
-Sufficiency is derived from the proven scalability of the PaaS components discussed in the use case considered here. The Azure Computer Vision service can be used to illustrate. The pre-trained model for the Azure Computer Vision service can be packaged in a container and be deployed to perform inferencing at the edge. Whether organizations ‘prefer’ a cloud-based deployment or one at the edge, it is evident that PaaS components such as Azure Computer Vision service have literally operationalized models at scale. The upshot for those savvy organizations that leverage PaaS components is that they have not only chosen a path that will accelerate their times to results, they have also selected a solution that scales as the AI-mediated healthcare is systematically operationalized. 
+Deep Learning models can rapidly become ‘involved’ – even though algorithms implemented at each layer can be readily deconstructed. Consequently, it typically becomes a challenge to provide the rationale for inferenced outcomes that originate within Deep Learning models. Thus, the explainability (a dimension of Responsible AI) of Deep Learning models is an increasingly pressing requirement. Responsible AI is a necessarily diverse and interdisciplinary topic that receives significant coverage via Azure ML. 
