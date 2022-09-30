@@ -1,6 +1,6 @@
 # Workspace Introduction
 
-## Virtual Machine Use 
+## DSVM Use 
 
 Although this module is a logical continuation of the previous one, there is one compelling difference: for the purpose of genomic analysis, use is made here of a **virtual machine** (VM) on Azure. In other words, commands will be executed interactively via a Linux-based VM, as opposed to non-interactively via the Azure Batch service. The rationale for this change will become evident.
 
@@ -36,4 +36,6 @@ To verify that the files were copied, the following Linux commands can prove use
 Armed with a local copy of these critical files on your VM, you can proceed with next steps - namely, further analysis of the genomes sequenced in Module 1. 
 
 ## Jupyter Noteboook 
+
+Open a Jupyter Notebook that connects to your Workspace. 
 
