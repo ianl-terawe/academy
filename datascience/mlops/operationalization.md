@@ -1,0 +1,11 @@
+# Operationalizing Models 
+
+<!--- here or intro? edit needed --->
+
+At the outset, AI models can be prototyped on an isolated laptop. As their value becomes evident, and the need arises to transition them into more of a production deployment, operationalizing at scale can become a serious impediment to progress. In fact, redeploying a framework for Deep Learning from a laptop to more of an enterprise server, cluster, or cloud, may not resolve the challenges associated with operationalization at scale. Once again, Azure’s PaaS offering delivers tangible benefits in ensuring the transition from prototyping in the small to operationalizing at scale can be made as seamlessly as possible. 
+
+## Accounting for Scale 
+
+With respect to the use case considered here, the matter of scalability was addressed as a capability demanded by enterprise-grade offerings. Scale, of course, resonates soundly with the very notion of the public cloud; consequently, scale is codified into the DNA of CSPs. When it comes to use of the cloud then, scalability equates to table stakes. While this comprises a necessary condition for operationalizing AI at scale in the cloud, it is not a sufficient condition to guarantee scale.
+
+Sufficiency is derived from the proven scalability of the PaaS components discussed in the use case considered here. The Azure Computer Vision service can be used to illustrate. The pre-trained model for the Azure Computer Vision service can be packaged in a container and be deployed to perform inferencing at the edge. Whether organizations ‘prefer’ a cloud-based deployment or one at the edge, it is evident that PaaS components such as Azure Computer Vision service have literally operationalized models at scale. The upshot for those savvy organizations that leverage PaaS components is that they have not only chosen a path that will accelerate their times to results, they have also selected a solution that scales as the AI-mediated healthcare is systematically operationalized. 
