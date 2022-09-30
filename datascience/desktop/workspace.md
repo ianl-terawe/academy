@@ -12,6 +12,10 @@ The VM you have accessed is running a **customized software image**. Built upon 
 
 <!--- check O/S version --->
 
+## X2Go Client 
+
+X2Go installed on your computer with an open XFCE session. For more information, see [Install and configure the X2Go client](https://learn.microsoft.com/en-us/azure/machine-learning/data-science-virtual-machine/dsvm-ubuntu-intro#x2go). 
+
 ## Data Management 
 
 Sorted BAM files (`CBS4C_sorted.bam` and `ER7A_sorted.bam`) and reference-genome files (`Saccharomyces_cerevisiae_STRs.txt` and `Saccharomyces_cerevisiae.fa`) from the first module are required as inputs for this module. Currently, these files reside in Azure blob storage. 
@@ -30,3 +34,6 @@ To verify that the files were copied, the following Linux commands can prove use
 <!--- include reference outputs for above commands? --->
 
 Armed with a local copy of these critical files on your VM, you can proceed with next steps - namely, further analysis of the genomes sequenced in Module 1. 
+
+## Jupyter Noteboook 
+
