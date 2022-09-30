@@ -100,3 +100,17 @@ As an optional step, see How to specify the model version. For example, to expli
 Run the application with the python command on your quickstart file.
 
 `python quickstart-file.py`
+
+An example of the output to exopect:
+
+```T
+===== Read File - remote =====
+The quick brown fox jumps
+[38.0, 650.0, 2572.0, 699.0, 2570.0, 854.0, 37.0, 815.0]
+Over
+[184.0, 1053.0, 508.0, 1044.0, 510.0, 1123.0, 184.0, 1128.0]
+the lazy dog!
+[639.0, 1011.0, 1976.0, 1026.0, 1974.0, 1158.0, 637.0, 1141.0]
+
+End of Computer Vision quickstart.
+```
