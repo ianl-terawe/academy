@@ -12,16 +12,14 @@ Objectives for this module fall into three categories.
 
 Upon completion of this module, the student will know:
 
-- How to make use of a cloud-based desktop for data science 
-- That their favorite languages and frameworks can in the cloud the same way they are used on the ground
-
+- How computers learn to see - in other words, the essentials of computer vision (e.g., object detection and classification, segmenting objects) are covered  
+- How to make use of pre-built AI services in a cloud-based setting - from their immediate value to limitations 
 
 ### Skills
 
 Upon completion of this module, the student will be able to:
 
-- Make use of a Linux-based desktop at the command line for data-science purposes 
-- Make use of Jupyter Notebooks for programming and making use of frameworks for data-science purposes
+- Make use of pre-built 'cognitive services' on Azure for data-science purposes - from basic to customized use 
 
 ### Experience
 
@@ -29,17 +27,16 @@ Upon completion of this module, the student will have experienced:
 
 - Active learning on Azure - a proactive learning experience that purposely intertwines learning with doing 
 - Rapid onboarding onto Azure - an experience that emphasizes ease of use, but primes the student for next steps  
-- The efficiency and effectiveness of Data Science on a purpose-built cloud infrastructure 
+- The efficiency and effectiveness of pre-built AI services for Data Science on a purpose-built cloud infrastructure 
 
 ## Prerequisites 
 
-Data Science is interdisciplinary in nature. Even though this is intended to be an introduction that places emphasis on transitioning the desktop experience into the cloud, prerequisites span various disciplines and practices:
+Data Science and Computer Vision are interdisciplinary in nature. Even though this is intended to be an introduction that places emphasis on computer vision via the cloud, prerequisites span various disciplines and practices:
 
-- IT - High-level, conceptual understandings of cloud and edge computing plus command-line use of Linux-based VMs comprise the IT-related prerequisites. Implicit with the use of a cloud-based VM is the ability to connect via `ssh` through use of a local client, as well as via `https` through use of a web browser (to allow for use of Jupyter Notebooks). 
-- Languages and frameworks - Examples, where appropriate, are provided in Python and R. Thus, some familiarity with these languages is required. In most cases, code samples are available in other programming languages; references to these resources are provided. Although use is made of various frameworks for Machine and/or Deep Learning, only a high-level conceptual understanding is required. 
-- Machine and Deep Learning - At a conceptual level, and understanding of Machine and Deep Learning is beneficial. For example, algorithms (e.g., decision trees) may be incoporated by reference only - and not covered in any detailed sense. Additionally, common terminology (e.g., training, inferencing) is employed without elaboration. 
+- IT - High-level, conceptual understandings of cloud and edge computing comprise the IT-related prerequisites. Knowledge of containerization is helpful. 
+- Machine and Deep Learning - At a conceptual level, and understanding of Machine and Deep Learning is beneficial. For example, algorithms (e.g., systematic image segmentation) may be incoporated by reference only - and not covered in any detailed sense. Additionally, common terminology (e.g., training, inferencing) is employed without elaboration. 
 
-For those lacking a background in Machine and/or Deep Learning, a variety of resources exist - e.g., online resources of various types that target various levels of learners. Of course, most institutions provide the required background through academic courses. Those well grounded in this subject will be well placed to appreciate this module to a much deeper of detail.
+For those lacking a background in Machine and/or Deep Learning, and/or Computer Vision in particluar, a variety of resources exist - e.g., online resources of various types that target various levels of learners. Of course, most institutions provide the required background through academic courses. Those well grounded in this subject will be well placed to appreciate this module to a much deeper of detail.
 
 <!--- math? --->
 
@@ -47,4 +44,4 @@ For those lacking a background in Machine and/or Deep Learning, a variety of res
 
 The problem can be stated succintly:
 
-> does cloud computing allow for a desktop experience that includes both command-line and graphical-user interfaces? 
+> can computers be taught to 'see' what humans can? 
