@@ -30,6 +30,8 @@ Using your Workspace for this module, enter tasks for each of the three steps vi
 
 Using the interface for Azure Batch in the Workspace, ensure you indicate the need to make use of support for **dependent tasks** as well the specifics of the dependency. The screenshot below makes the dependent-task requirement clear.
 
+![Azure Batch - dependent tasks](/hpc/prototyping/media/oneAPIstack.png "Azure Batch - dependent tasks")
+
 Execute these tasks via your Workspace and make note of the task status. Note that the sorting of the BAM via Picard doesn't begin until NGSEP has completed its reads alignment. Similarly, the computation of the quality statistics via NGSEP will not begin until after Picard has completed sorting the BAM file. 
 
 It's important to note that, by making use of task dependencies in Azure Batch, a simple genomics pipeline has been implemented. 
