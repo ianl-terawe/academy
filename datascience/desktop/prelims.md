@@ -35,6 +35,9 @@ Data Science is interdisciplinary in nature. Even though this is intended to be 
 
 - IT - High-level, conceptual understandings of cloud computing and command-line use of Linux-based VMs comprise the IT-related prerequisites. Implicit with the use of a cloud-based VM is the ability to connect via `ssh` through use of a local client, as well as via `https` through use of a web browser (to allow for use of Jupyter Notebooks). 
 - Languages and frameworks - Examples, where appropriate, are provided in Python and R. Thus, some familiarity with these languages is required. In most cases, code samples are available in other programming languages; references to these resources are provided. Although use is made of various frameworks for Machine and/or Deep Learning, only a high-level conceptual understanding is required. 
+- Machine and Deep Learning - At a conceptual level, and understanding of Machine and Deep Learning is beneficial. For example, algorithms (e.g., decision trees) may be incoporated by reference only - and not covered in any detailed sense. 
+
+<!--- math? --->
 
 ## Problem Statement 
 
