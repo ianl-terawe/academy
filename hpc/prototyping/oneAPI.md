@@ -8,4 +8,3 @@ oneAPI has emerged to address the challenge of heterogeneous XPUs (see figure be
 
 
 Of course, what applies to GROMACS can apply to any application: by adopting oneAPI, the entire XPU landscape presents as opportunities for uptake, as opposed to barriers to progress. To ensure the adoption barrier for oneAPI is as low as it can be, various tooling is available. For example, conversion utilities can be employed to convert proprietary code written in CUDA for NVIDIA GPUs to DPC++ for any processor.  Importantly, post conversion, it has also been demonstrated that applications built with oneAPI perform as well as processor-specific implementations – typically to with a few percentage points. Again, given the upside of XPU neutrality, minor sacrifices in performance seem well justified.
-
