@@ -14,7 +14,7 @@ From Visual Studio's top menu, select `Extensions > Intel > Browse Intel oneAPI 
 
 For a video from Intel on the samples browser see:
 
-[![oneAPI samples screen video](/hpc/prototyping/media/oneAPIsamplesscreen.png "oneAPI samples screen video")](https://youtu.be/_0qTBthNkSM)
+[![oneAPI samples screen video](https://raw.githubusercontent.com/ianl-terawe/academy/main/hpc/prototyping/media/oneAPIsamplesscreen.png "oneAPI samples screen video")](https://youtu.be/_0qTBthNkSM)
 
 ## Running a Matrix-Mutiplication Sample 
 
@@ -26,7 +26,7 @@ From the `Solution Explorer`, right click on `matrix_mul_mkl` and select `Rebuil
 
 From the top menu, select `DebugStart Without Debugging`. The debug results will appear in the debug console. Refer to the screenshot below:
 
-![oneAPI samples - matrix multiplication](/hpc/prototyping/media/oneAPIsamples_runmatmult.png "oneAPI samples - matrix multiplication")
+![oneAPI samples - matrix multiplication](https://raw.githubusercontent.com/ianl-terawe/academy/main/hpc/prototyping/media/oneAPIsamples_runmatmult.png "oneAPI samples - matrix multiplication")
 
 > **Note:**
 > This example draws heavily upon developer-centric content from Intel; you can find that resource [here](https://www.intel.com/content/www/us/en/develop/documentation/get-started-with-intel-oneapi-hpc-windows/top/run-a-sample-project-with-visual-studio.html). Consult this resource for additional details regarding this example. 
