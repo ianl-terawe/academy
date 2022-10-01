@@ -10,7 +10,7 @@ From Visual Studio's top menu, select `Extensions > Intel > Browse Intel oneAPI 
 
 <!--- replace screenshot --->
 
-![oneAPI samples screen](https://github.com/ianl-terawe/academy/blob/main/hpc/prototyping/media/oneAPIsamplesscreen.png "oneAPI samples screen")
+![oneAPI samples screen](https://raw.githubusercontent.com/ianl-terawe/academy/main/hpc/prototyping/media/oneAPIsamplesscreen.png "oneAPI samples screen")
 
 For a video from Intel on the samples browser see:
 
