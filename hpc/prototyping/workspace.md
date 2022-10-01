@@ -25,6 +25,9 @@ This desktop introduces you to the Intel oneAPI toolchain on Microsoft Windows. 
 
 <!--- Visual Studio - license needed? --->
 
+> **Note:**
+> You can evaluate a free trial of Visual Studio for at least 30 days. For the details, please refer to the documentation [here](https://learn.microsoft.com/en-us/visualstudio/ide/how-to-unlock-visual-studio?view=vs-2022). 
+
 As the emphasis of this module is HPC, the toolchain features the [Intel® oneAPI HPC Toolkit](https://www.intel.com/content/www/us/en/developer/tools/oneapi/hpc-toolkit.html). This HPC Kit includes:
 
 - Compilers - from both classic and oneAPI C/C++ to Fortran
