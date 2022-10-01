@@ -24,7 +24,9 @@ As you'd expect, this sample involves the multiplication of matrices. It is impl
 
 From the `Solution Explorer`, right click on `matrix_mul_mkl` and select `Rebuild`.
 
-From the top menu, select `DebugStart Without Debugging`. The debug results will appear in the debug console. 
+From the top menu, select `DebugStart Without Debugging`. The debug results will appear in the debug console. Refer to the screenshot below:
+
+![oneAPI samples - matrix multiplication](/hpc/prototyping/media/oneAPIsamples_runmatmult.png "oneAPI samples - matrix multiplication")
 
 > **Note:**
 > This example draws heavily upon developer-centric content from Intel; you can find that resource [here](https://www.intel.com/content/www/us/en/develop/documentation/get-started-with-intel-oneapi-hpc-windows/top/run-a-sample-project-with-visual-studio.html). Consult this resource for additional details regarding this example. 
@@ -32,3 +34,12 @@ From the top menu, select `DebugStart Without Debugging`. The debug results will
 ## Other oneAPI Code Samples and More 
 
 The HPC Kit from Intel includes numerous code samples that make use of oneAPI. oneAPI libraries and tools are also included. 
+
+Using the same approach as above (i.e., in the case of the matrix-multiplication example), you may explore additional oneAPI code samples. 
+
+## Learning to Program for oneAPI 
+
+These samples should encourage and inform your uptake of oneAPI. However, many learners will require a more-formal introduction. Fortunately, there are numerous resources available; for example:
+
+- [oneAPI's home page](https://www.oneapi.io/)
+- [Intel's developer-centric offering](https://www.intel.com/content/www/us/en/developer/tools/oneapi/overview.html)
