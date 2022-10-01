@@ -46,4 +46,7 @@ These samples should encourage and inform your uptake of oneAPI. However, many l
 
 ## Other Uses 
 
-The Intel toolchain can be applied to source code that _does not_ involve oneAPI. 
+The Intel toolchain can be applied to source code that _does not_ involve oneAPI. You can make use of this setup:
+
+- To prototype with your own code 
+- To make use sample code from other sources 
