@@ -51,6 +51,6 @@ The Cromwell WfMS implementation on Azure is:
 
 An architectural schematic (sourced from the project's GitHub repo [here](https://github.com/microsoft/CromwellOnAzure)) is provided below. 
 
-![Cromwell on Azure](/genomics/pipeline/media/cromwellonazure.png "Cromwell on Azure")
+![Cromwell on Azure](https://raw.githubusercontent.com/ianl-terawe/academy/main/genomics/pipeline/media/cromwellonazure.png "Cromwell on Azure")
 
 <!--- discuss arch & cf. w/ batch implementation used here --->

@@ -14,7 +14,7 @@ The purpose of this simple task is to _ensure_ NGSEP is running correctly via Az
 
 Once complete, you should output similar to:
 
-![NGSEP commands partial list](/genomics/sequencing/media/ngsep_commands_partial.png "NGSEP commands partial list")
+![NGSEP commands partial list](https://raw.githubusercontent.com/ianl-terawe/academy/main/genomics/sequencing/media/ngsep_commands_partial.png "NGSEP commands partial list")
 
 This image captures only a _partial_ list of NGSEP's modules; included is a brief description for each. 
 

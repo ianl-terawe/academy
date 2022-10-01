@@ -9,7 +9,7 @@ Open your Workspace. Note that the RDP file contains the details required to con
 
 If you are making use of a Windows desktop, download the RDP file. Double-clicking on this file will result in the desktop experience illustrated below - once you've entered your login and password details. Use will be made of this desktop throughout this module. 
 
-![oneAPI desktop](/hpc/prototyping/media/oneAPIdesktop.png "oneAPI desktop")
+![oneAPI desktop](https://raw.githubusercontent.com/ianl-terawe/academy/main/hpc/prototyping/media/oneAPIdesktop.png "oneAPI desktop")
 
 If your desktop is macOS or Linux based, you'll need to install an RDP client before you can made use the cloud-based Windows desktop. 
 

@@ -4,7 +4,7 @@
 
 Jupyter Notebooks and IDEs allow developers of Deep Learning applications to run their code. When crafting prototypes of algorithmic implementations to entire models, this simplest of approaches can be effective for training, validation, and inferencing purposes. However, the need to properly operationalize the lifecycle of Deep Learning models can escalate rapidly – even before production implementations are established. 
 
-![AML Overview](/datascience/mlops/media/automl.png "AML Overview")
+![AML Overview](https://raw.githubusercontent.com/ianl-terawe/academy/main/datascience/mlops/media/automl.png "AML Overview")
 
 Working progressively from left-to-right in the above figure, the essentials of the service are:
 
