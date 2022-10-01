@@ -10,7 +10,7 @@ From Visual Studio's top menu, select `Extensions > Intel > Browse Intel oneAPI 
 
 <!--- replace screenshot --->
 
-![oneAPI samples screen](/hpc/prototyping/media/oneAPIsamplesscreen.png "oneAPI samples screen")
+![oneAPI samples screen](https://github.com/ianl-terawe/academy/blob/main/hpc/prototyping/media/oneAPIsamplesscreen.png "oneAPI samples screen")
 
 For a video from Intel on the samples browser see:
 
@@ -43,3 +43,7 @@ These samples should encourage and inform your uptake of oneAPI. However, many l
 
 - [oneAPI's home page](https://www.oneapi.io/)
 - [Intel's developer-centric offering](https://www.intel.com/content/www/us/en/developer/tools/oneapi/overview.html)
+
+## Other Uses 
+
+The Intel toolchain can be applied to source code that _does not_ involve oneAPI. 
