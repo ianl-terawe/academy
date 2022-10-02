@@ -7,6 +7,8 @@ The Markdown files in this part of the repo will be presented via ManageX Academ
 - [Reusable Batch-Based Pipelines](/genomics/pipeline/reusable_batch.md)
 - [Genomics Pipelines](/genomics/pipeline/discipline_specific.md)
 - [Next Steps](/genomics/pipeline/nextsteps.md)
-- [Summary](/genomics/pipeline/summary.md) <!--- TODO --->
+- [Summary](/genomics/pipeline/summary.md) 
+
+<!--- TODO --->
 
 Any other files remain under development and may or may not be reflected in the released version of ManageX Academy.
