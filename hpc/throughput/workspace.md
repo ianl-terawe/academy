@@ -32,6 +32,3 @@ GROMACS was executed on a compute node of the Azure Batch service. The compute n
 > The throughput-based HPC module makes use of a virtual machine (VM) running Linux. You'll be able to make use of this VM to reveal more about this custom software image.
 
 You've confirmed you can run workloads via Azure Batch. In the next section, you'll run other jobs. 
-
-
-![GROMACS via oneAPI on Azure](https://raw.githubusercontent.com/ianl-terawe/academy/main/hpc/throughput/media/GMX_oneAPI_Azure.png "GROMACS via oneAPI on Azure")
