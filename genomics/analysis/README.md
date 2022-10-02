@@ -3,7 +3,7 @@ The Markdown files in this part of the repo will be presented via ManageX Academ
 - [Preliminaries](/genomics/analysis/prelims.md)
 - [Introduction](/genomics/analysis/intro.md)
 - [Workspace](/genomics/analysis/workspace.md)
-- [Varianst Discovery & Genotyping](/genomics/analysis/variants.md)
+- [Variants Discovery & Genotyping](/genomics/analysis/variants.md)
 - [Annotation](/genomics/analysis/annotate.md)
 - [Next Steps](/genomics/analysis/nextsteps.md)
 - [Summary](/genomics/analysis/summary.md)
