@@ -2,13 +2,16 @@ The Markdown files in this part of the repo will be presented via ManageX Academ
 
 - [Preliminaries](/genomics/pipeline/prelims.md)
 - [Introduction](/genomics/pipeline/intro.md)
-- [Workspace](/genomics/pipeline/workspace.md) <!--- TODO --->
+- [Workspace](/genomics/pipeline/workspace.md)
 - [Batch-Based Pipelines](/genomics/pipeline/batch.md)
 - [Reusable Batch-Based Pipelines](/genomics/pipeline/reusable_batch.md)
 - [Genomics Pipelines](/genomics/pipeline/discipline_specific.md)
 - [Next Steps](/genomics/pipeline/nextsteps.md)
 - [Summary](/genomics/pipeline/summary.md) 
 
-<!--- TODO --->
+<!--- TODO 
+. workspace
+. summary
+--->
 
 Any other files remain under development and may or may not be reflected in the released version of ManageX Academy.
