@@ -1,4 +1,4 @@
-# Azure Machine Learning: An OOverview of the Python Client Library
+# Azure Machine Learning: An Overview of the Python Client Library
 
 ## Making Use of the DSVM
 
