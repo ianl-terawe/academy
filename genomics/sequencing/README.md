@@ -8,4 +8,9 @@ The Markdown files in this part of the repo will be presented via ManageX Academ
 - [Next Steps](/genomics/sequencing/nextsteps.md)
 - [Summary](/genomics/sequencing/summary.md)
 
+<!--- TODO 
+. next
+. summary
+--->
+
 Any other files remain under development and may or may not be reflected in the released version of ManageX Academy.
