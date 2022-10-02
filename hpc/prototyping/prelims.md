@@ -1,8 +1,3 @@
-
-
-
-HPC - spell out - concepts - shared / dist'd mem parallel programming 
-
 # Some Preliminaries 
 
 From objectives to prerequisites, some preliminaries are the emphasis here. This section concludes with a framing in terms of a problem statement. 
