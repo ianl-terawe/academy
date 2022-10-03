@@ -11,7 +11,7 @@ To illustrate HPC that aims to maximize the throughput of computational workload
 
 As only a single VM is used for 'scale-up' purposes, other VMs can run simulations based on _different_ input parameters. The objective of GROMACS use cases framed in this fashion is that of **throughput**. In other words, by maximizing the number of simulations performed per unit wall-clock time, an **ensemble** of runs is employed to investigate use cases of interest. As the figures below well illustrates, ensembles of runs can take a variety of forms.
 
-![Ensembles of runs](https://raw.githubusercontent.com/ianl-terawe/academy/main/hpc/throughput/media/emsemble.png "Ensembles of runs")
+![Ensembles of runs](https://raw.githubusercontent.com/ianl-terawe/academy/main/hpc/throughput/media/ensemble.png "Ensembles of runs")
 
 This is an interesting and significant departure for GROMACS, as maximizing for throughput is typically the domain of applications that can exploit parallelism inherent in data (upper, right quadrant of the granularity versus concurrency figure above).
 
