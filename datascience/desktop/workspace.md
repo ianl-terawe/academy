@@ -39,3 +39,4 @@ Armed with a local copy of these critical files on your VM, you can proceed with
 
 Open a Jupyter Notebook that connects to your Workspace. 
 
+<!--- need to detail this!!! --->
