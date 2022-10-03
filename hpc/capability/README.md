@@ -2,10 +2,9 @@ The Markdown files in this part of the repo will be presented via ManageX Academ
 
 - [Preliminaries](/hpc/capability/prelims.md)
 - [Introduction](/hpc/capability/intro.md)
-- [GROMACS Introduction](/hpc/capability/gromacs.md)
 - [Workspace](/hpc/capability/workspace.md)
-- [GROMACS CLI](/hpc/capability/gromacs_cli.md)
-- [GROMACS MPI](/hpc/capability/gromacs_capability.md)
+- [Azure Batch for Capability HPC](/hpc/capability/azurebatch_mpi)
+- [GROMACS Capability](/hpc/capability/gromacs_capability.md)
 - [Next Steps](/hpc/capability/nextsteps.md)
 - [Summary](/hpc/capability/summary.md)
 

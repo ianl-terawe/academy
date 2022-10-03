@@ -1,6 +1,6 @@
 # Introduction
 
-## GROMACS as a Throughput Application
+## GROMACS as an HPC Throughput Application
 
 To illustrate HPC that aims to maximize the throughput of computational workloads use is made of the GROMACS application. This places GROMACS on the right side of the figure below. Thus, multiple runs of moderate-capability simulations are the objective. Each simulation is crafted to ‘fit’ within the confines of, for example, a many-core virtual machine (VM).
 

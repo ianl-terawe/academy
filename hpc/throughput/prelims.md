@@ -11,9 +11,9 @@ Objectives for this module fall into three categories.
 Upon completion of this module, the student will know that:
 
 - HPC applications seek to maximize throughout _or_ capability  
-- A cloud-based batch infrastructure is ideal for executing HPC applications that seek to maximize throughput 
-- GROMACS serves as an illustrative application for throughput based HPC that allows a parameter space to be explored 
-- Existing throughput-based workloads can be easily transitioned for use in the cloud 
+- A cloud-based batch infrastructure is ideal for executing HPC applications that seek to maximize **throughput**
+- GROMACS serves as an illustrative application for throughput-based HPC that allows a parameter space to be explored 
+- Existing throughput-based HPC workloads can be easily transitioned for use in the cloud 
 - How the demands of productions workloads can be addressed in practice 
 
 ### Skills
