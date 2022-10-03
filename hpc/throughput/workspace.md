@@ -4,15 +4,15 @@ Open the Workspace for this module. This Workspace provides a _simplified_ inter
 
 Using the interface, create a new job. Then, create a new task by pasting the following 
 
-```shell
-gmx ...
+```bash
+gmx --version
 ```
 
 into the "command line" field. Click on `Submit`. 
 
 The purpose of this simple task is to _ensure_ GROMACS is running correctly via Azure Batch. 
 
-Once complete, you should output similar to:
+Once complete, you should output similar to that shared in the previous section. 
 
 <!--- ![NGSEP commands partial list](/genomics/sequencing/media/ngsep_commands_partial.png "NGSEP commands partial list") 
 

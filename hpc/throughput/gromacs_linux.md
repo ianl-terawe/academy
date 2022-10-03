@@ -1,4 +1,4 @@
-# GROMACS in Linux 
+# GROMACS on Azure-Based Linux VMs
 
 The position of those responible for leading GROMACS development has always been that the application should execute on platforms spanning from isolated laptops and desktops to the largest supercomputers on the planet. For this module, GROMACS has been built on Azure by making use of the platform illustrated below. From the top down, the main components of this platform are as follows:
 
@@ -52,4 +52,4 @@ Details of the installed version of GROMACS can then be obtained by issuing the 
 
 ![GROMACS regression tests - summary](https://raw.githubusercontent.com/ianl-terawe/academy/main/hpc/throughput/media/gmx_regression_tests.png "GROMACS regression tests - summary")
 
-As the tests were passed, installation of the software can proceed.
+As the tests were passed, installation of the software can proceed. The built, tested, and installed version of the GROMACS software is put to use in subsequent sections of this module. 

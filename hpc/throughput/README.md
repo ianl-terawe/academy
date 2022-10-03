@@ -2,10 +2,10 @@ The Markdown files in this part of the repo will be presented via ManageX Academ
 
 - [Preliminaries](/hpc/throughput/prelims.md)
 - [Introduction](/hpc/throughput/intro.md)
-- [GROMACS Introduction](/hpc/throughput/gromacs.md)
-- [GROMACS CLI](/hpc/throughput/gromacs_cli.md)
-- [GROMACS Batch](/hpc/throughput/gromacs_batch.md)
+- [GROMACS Background](/hpc/throughput/gromacs_bkgd.md)
+- [GROMACS on Azure](/hpc/throughput/gromacs_linux.md)
 - [Workspace](/hpc/throughput/workspace.md)
+- [GROMACS via Azure Batch](/hpc/throughput/gromacs_batch.md)
 - [Next Steps](/hpc/throughput/nextsteps.md)
 - [Summary](/hpc/throughput/summary.md)
 
