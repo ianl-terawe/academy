@@ -10,3 +10,5 @@ By algorithmically exploiting parallelism at the source-code level, GROMACS is â
 As Compute Parallel applications take full advantage of scale-up-and-out HPC infrastructures, emphasis is placed on uptake of the capabilities to ensure computations are tractable.  Therefore, the objective of extreme-capability GROMACS simulations is the delivery of simulated trajectories for molecular systems. 
 
 <!--- need to explain scale up/out --->
+
+MPI ?
