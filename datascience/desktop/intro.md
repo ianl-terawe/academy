@@ -6,4 +6,4 @@ This module shows you how to complete several common data science tasks by using
 
 The DSVM is comprehensive and capable. It can factor into end-to-end workflows in support of numerous disciplines. 
 
-![The Data Science VM enables end-to-end wrokflows](https://raw.githubusercontent.com/ianl-terawe/academy/main/datascience/desktop/media/dvsm_e2e.png "The Data Science VM enables end-to-end wrokflows")
+![The Data Science VM enables end-to-end workflows](https://raw.githubusercontent.com/ianl-terawe/academy/main/datascience/desktop/media/dvsm_e2e.png "The Data Science VM enables end-to-end workflows")

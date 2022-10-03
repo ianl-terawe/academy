@@ -24,7 +24,7 @@ text(model.rpart)
 
 Here's the result: 
 
-![decision tree example](/datascience/desktop/media/decision_tree_example.png "decision tree example")
+![decision tree example](https://raw.githubusercontent.com/ianl-terawe/academy/main/datascience/desktop/media/decision_tree_example.png "decision tree example")
 
 To determine how well it performs on the training set, use the following code: 
 
