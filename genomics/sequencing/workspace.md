@@ -2,10 +2,14 @@
 
 Open the Workspace for this module. This Workspace provides a _simplified_ interface for Azure Batch - a workload manager that allows you to submit jobs and tasks.
 
-Using the interface, create a new job. Then, create a new task by pasting the following 
+Using the interface, make use of the existing pool, and create a new job as follows:
+
+![Creating a new job](https://raw.githubusercontent.com/ianl-terawe/academy/main/genomics/sequencing/media/new_job.png "Creating a new job")
+
+Then, create a new task by pasting the following 
 
 ```shell
-java -jar ~/javaPrograms/NGSEPcore_<VERSION>.jar
+java -jar /opt/NGSEP/NGSEPcore.jar
 ```
 
 into the "command line" field. Click on `Submit`. 
