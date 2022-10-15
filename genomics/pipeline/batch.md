@@ -28,7 +28,7 @@ Using your Workspace for this module, enter tasks for each of the three steps vi
 1. `java -jar /opt/picard/picard.jar SortSam SO=coordinate CREATE_INDEX=true TMP_DIR=/mnt/output/<USERNAME> I=/mnt/output/<USERNAME>/ER7A.bam O=/mnt/output/<USERNAME>/ER7A_sorted.bam >& /mnt/output/<USERNAME>/ER7A_sort.log`
 1. `java -jar /opt/NGSEP/NGSEPcore.jar BasePairQualStats -r /mnt/genomics/reference/Saccharomyces_cerevisiae.fa -o /mnt/output/<USERNAME>/ER7A_readpos.stats /mnt/output/<USERNAME>/ER7A_sorted.bam`
 
-Using the interface for Azure Batch in the Workspace, ensure you indicate the need to make use of support for **dependent tasks** as well the specifics of the dependency. The screenshot below makes the dependent-task requirement clear.
+Using the interface for Azure Batch in the Workspace, ensure you indicate the need to make use of support for **dependent tasks** as well the specifics of the dependency. The screenshot below makes the dependent-task requirement clear. 
 
 ![Azure Batch - dependent tasks](https://raw.githubusercontent.com/ianl-terawe/academy/main/genomics/pipeline/media/dependent_task.png "Azure Batch - dependent tasks")
 
