@@ -23,7 +23,7 @@ To obtain the SRA toolkit from [NCBI](https://www.ncbi.nlm.nih.gov/home/tools/):
 
 <!--- nest above? --->
 
-![SRA toolkit configuration](/genomics/analysis/media/sra_config.png "SRA toolkit configutation")
+![SRA toolkit configuration](https://raw.githubusercontent.com/ianl-terawe/academy/main/genomics/analysis/media/sra_config.png "SRA toolkit configuration")
 
 > **Note:**
 > Your Workspace is based on CentOS Linux. If you are making use of a different operating environment, download the appropriate version of the SRA toolkit from [here](https://www.ncbi.nlm.nih.gov/home/tools/). 
