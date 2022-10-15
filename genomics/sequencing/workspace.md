@@ -1,22 +1,43 @@
 # Workspace Introduction 
 
-Open the Workspace for this module. This Workspace provides a _simplified_ interface for Azure Batch - a workload manager that allows you to submit jobs and tasks.
+Your Workspace provides a _simplified_ interface for Azure Batch - a workload manager that allows you to submit jobs and tasks.
 
-Using the interface, make use of the existing pool, and create a new job as follows:
+Click on `My Workspace`. 
 
-![Creating a new job](https://raw.githubusercontent.com/ianl-terawe/academy/main/genomics/sequencing/media/new_job.png "Creating a new job")
+Expand `Workspace Details` by clicking on the downward-pointing arrow or anywhere on this panel.
 
-Then, create a new task by pasting the following 
+Locate the `Add` drop down menu and select `Job`. 
+
+For your **New Job**, select the default **Pool**, and enter a **Name** as follows:
+
+!["New Job interface"](/genomics/sequencing/media/new_job.png "New Job interface")
+
+Click submit at the bottom of the `New Job` panel. 
+
+Using the same `Add` drop down menu, select `Task`. 
+
+Create a new task by pasting the following 
 
 ```shell
-java -jar /opt/NGSEP/NGSEPcore.jar
+java --version
 ```
 
-into the "command line" field. Click on `Submit`. 
+into the `Commands` field. See the screenshot below. 
 
-The purpose of this simple task is to _ensure_ NGSEP is running correctly via Azure Batch. 
+!["New Task interface"](/genomics/sequencing/media/new_task.png "New Task interface")
 
-Once complete, you should output similar to:
+Click on `Submit`. 
+
+To view the output generated, select the `Task List` tab, and then the name of your task. 
+
+Once complete, you should see output similar to:
+
+![Task Details](/genomics/sequencing/media/task_details.png "Task Details")
+
+> **Note:**
+> Execution of this task may take seconds to minutes. Azure Batch has been configured to dynamically allocate compute nodes to its compute pools based upon queue workload. Thus, in the worst-case scenario (no previously queued or executing workload), Azure Batch will provision and deploy compute nodes 'from scratch.'
+
+<!--- swapped out for Java 
 
 ![NGSEP commands partial list](https://raw.githubusercontent.com/ianl-terawe/academy/main/genomics/sequencing/media/ngsep_commands_partial.png "NGSEP commands partial list")
 
@@ -24,13 +45,13 @@ This image captures only a _partial_ list of NGSEP's modules; included is a brie
 
 The full list of NGSEP commands will be available as the output of the task run by Azure Batch. Once your task is complete, view the output by clicking on "View Output". 
 
-<!--- fix the above once UI is known --->
+--->
 
-NGSEP was executed on a compute node of the Azure Batch service. The compute node makes use of a customized software image. In addition to the operating system (Linux Ubuntu 18.04), this software image includes a version of the Java runtime environment along with NGSEP. 
+The command was executed on a compute node of the Azure Batch service. The compute node makes use of a customized software image. In addition to the operating system, this software image includes a version of the Java runtime environment along with NGSEP. 
 
 <!--- add arch schematic of Batch service implementation --->
 
 > **Note:** 
-> The Genomics Analysis module makes use of a virtual machine (VM) running Linux. You'll be able to make use of this VM to reveal more about this custom software image.
+> The Genomics Analysis module makes use of a virtual machine (VM) running Linux. You'll be able to make use of this VM to reveal more about customized software images.
 
 You've confirmed you can run workloads via Azure Batch. In the next section, you'll sequence a genome with NGSEP. 
