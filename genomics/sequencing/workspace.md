@@ -10,7 +10,7 @@ Locate the `Add` drop down menu and select `Job`.
 
 For your **New Job**, select the default **Pool**, and enter a **Name** as follows:
 
-!["New Job interface"](/genomics/sequencing/media/new_job.png "New Job interface")
+!["New Job interface"](https://raw.githubusercontent.com/ianl-terawe/academy/main/genomics/sequencing/media/new_job.png "New Job interface")
 
 Click submit at the bottom of the `New Job` panel. 
 
@@ -24,7 +24,7 @@ java --version
 
 into the `Commands` field. See the screenshot below. 
 
-!["New Task interface"](/genomics/sequencing/media/new_task.png "New Task interface")
+!["New Task interface"](https://raw.githubusercontent.com/ianl-terawe/academy/main/genomics/sequencing/media/new_task.png "New Task interface")
 
 Click on `Submit`. 
 
@@ -32,7 +32,7 @@ To view the output generated, select the `Task List` tab, and then the name of y
 
 Once complete, you should see output similar to:
 
-![Task Details](/genomics/sequencing/media/task_details.png "Task Details")
+![Task Details](https://raw.githubusercontent.com/ianl-terawe/academy/main/genomics/sequencing/media/task_details.png "Task Details")
 
 > **Note:**
 > Execution of this task may take seconds to minutes. Azure Batch has been configured to dynamically allocate compute nodes to its compute pools based upon queue workload. Thus, in the worst-case scenario (no previously queued or executing workload), Azure Batch will provision and deploy compute nodes 'from scratch.'
