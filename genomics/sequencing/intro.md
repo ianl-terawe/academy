@@ -4,4 +4,4 @@ The purpose of this module is to sequence genomes. To illustrate this common req
 
 Aspects of sequencing are _computationally intensive_; for example, mapping reads is inherently so. As data volumes increase, so does the computational overhead. In addition to making use of software typical to genomics, this module makes use of a batch service on Azure. This allows compute-intensive workloads to be executed _non-interactively_ in a fully-managed fashion. 
 
-The outcome of this module are sorted reads and statistics for the yeast strains of interest. Moreover, this data serves as the primary input for a subsequent module that places the emphasis on analyzed sequenced genomics data. 
+The outcome of this module are sorted reads and statistics for the yeast strains of interest. 
