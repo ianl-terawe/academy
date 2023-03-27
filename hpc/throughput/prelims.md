@@ -14,13 +14,13 @@ Upon completion of this module, the student will know that:
 - A cloud-based batch infrastructure is ideal for executing HPC applications that seek to maximize **throughput**
 - GROMACS serves as an illustrative application for throughput-based HPC that allows a parameter space to be explored 
 - Existing throughput-based HPC workloads can be easily transitioned for use in the cloud 
-- How the demands of productions workloads can be addressed in practice 
+- The demands of productions workloads can be addressed in practice 
 
 ### Skills
 
 Upon completion of this module, the student will be able to:
 
-- Appreciate how complex scientific applciations like GROMACS are built, tested, tuned, and used via benchamrks of actual systems 
+- Appreciate how complex scientific applciations like GROMACS are built, tested, tuned, and used via benchmarks of actual systems 
 - Make use of Azure Batch as the means for executing throughput-focused HPC workloads 
 
 ### Experience
@@ -38,7 +38,7 @@ HPC is interdisciplinary in nature. Even though this is intended to be an introd
 - IT - High-level, conceptual understandings of cloud computing and workload management comprise the IT-related prerequisites. Pivotal to the current module is use of a workload manager. 
 - HPC - At a conceptual level, an understanding of High Performance Computing would be beneficial. This module places emphasis on maximizing the throughput of HPC applications. 
 
-HPC tends to be less accessible than many subjects. However, by completing this and other two modules, the learner will be exposed to the key concepts. 
+HPC tends to be less accessible than many subjects. However, by completing this and other two modules, the learner will be exposed to key concepts. 
 
 ## Problem Statement 
 
