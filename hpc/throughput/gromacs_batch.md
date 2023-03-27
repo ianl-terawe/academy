@@ -11,7 +11,7 @@ Representative benchmarks are available from the Max Planck Institute for Multid
 
 The details of each is captured via a `tpr` file - a binary-format and portable file that captures the system topology, parameters, coordinates, and velocities (according to [the documentation](https://manual.gromacs.org/current/reference-manual/file-formats.html#tpr)). Using each of the `tpr` files as input various benchmarks can be run. 
 
-For example, tuning runs __could__ be executed by entering the following as the "command line" panel of the interface to Azure Batch in this module's Workspace:
+For example, tuning runs _could_ be executed by entering the following as the "command line" panel of the interface to Azure Batch in this module's Workspace:
 
 ```bash
 /bin/sh -c ". /opt/intel/oneapi/setvars.sh && . /usr/local/gromacs/bin/GMXRC && gmx mdrun -s /mnt/hpc/benchMEM.tpr -nsteps 10000 -resethway -cpt 1440"
@@ -57,6 +57,9 @@ To invoke this Bourne shell script via Azure Batch, type the following into the 
 ```bash
 /bin/sh -c "/mnt/hpc/gmx_mdrun_MEM.sh"
 ```
+
+> **Note:** 
+> This MEM simulation takes around 10 minutes of **execution time** on the D-Series VM employed by Azure Batch in this module. The **wall-clock time**, however, may be _multiple_ tens of minutes _longer_. This additional **wait time** may reflect, for example, the demand for workload processing. 
 
 Expected output will end as follows:
 

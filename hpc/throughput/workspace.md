@@ -18,20 +18,8 @@ Click on `Submit`.
 
 The purpose of this simple task is to _ensure_ GROMACS is running correctly via Azure Batch. 
 
-Once complete, you should output similar to that shared in the previous section. 
-
-<!--- ![NGSEP commands partial list](/genomics/sequencing/media/ngsep_commands_partial.png "NGSEP commands partial list") 
-
-This image captures only a _partial_ list of NGSEP's modules; included is a brief description for each. 
-
-The full list of NGSEP commands will be available as the output of the task run by Azure Batch. Once your task is complete, view the output by clicking on "View Output". 
-
---->
-
-<!--- fix the above once UI is known --->
+Once complete, you should see output similar to that shared in the previous section. 
 
 GROMACS was executed on a compute node of the Azure Batch service. The compute node makes use of a customized software image. In addition to the operating system (Linux CentOS 7.9), this software image includes the Intel oneAPI toolchain along with GROMACS. 
-
-<!--- add arch schematic of Batch service implementation --->
 
 You've confirmed you can run workloads via Azure Batch. In the next section, you'll run other jobs. 
