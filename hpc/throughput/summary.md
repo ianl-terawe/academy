@@ -31,6 +31,6 @@ By completing this module, the student should have experienced:
 
 ## Problem Statement (Revisted)
 
-Thus, the problem can be stated affirmatively:
+Thus, the problem can be stated **affirmatively**:
 
 > cloud computing allows an ensemble of simulations to be maximized for throughput.
