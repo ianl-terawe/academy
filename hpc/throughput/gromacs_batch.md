@@ -2,7 +2,7 @@
 
 ## Running GROMACS Throughput Workloads via Azure Batch 
 
-GROMACS has been introduced in previous sections. The emphasis here is running a typical GROMACS workload via Azure Batch. 
+GROMACS has been introduced in previous sections. The emphasis here is running a simple GROMACS workload via Azure Batch. 
 
 Representative benchmarks are available from the Max Planck Institute for Multidisciplinary Sciences [here](https://www.mpinat.mpg.de/grubmueller/bench). From this site, two, standard benchmarks have been retrieved as follows:
 
@@ -11,33 +11,58 @@ Representative benchmarks are available from the Max Planck Institute for Multid
 
 The details of each is captured via a `tpr` file - a binary-format and portable file that captures the system topology, parameters, coordinates, and velocities (according to [the documentation](https://manual.gromacs.org/current/reference-manual/file-formats.html#tpr)). Using each of the `tpr` files as input various benchmarks can be run. 
 
-For example, tuning runs can be executed by entering the following as the "command line" panel of the interface to Azure Batch in this module's Workspace:
+For example, tuning runs __could__ be executed by entering the following as the "command line" panel of the interface to Azure Batch in this module's Workspace:
 
 ```bash
-gmx mdrun -s <PATH_TO_TPR_FILES>/benchMEM.tpr -nsteps 10000 -resethway -cpt 1440   
+/bin/sh -c ". /opt/intel/oneapi/setvars.sh && . /usr/local/gromacs/bin/GMXRC && gmx mdrun -s /mnt/hpc/benchMEM.tpr -nsteps 10000 -resethway -cpt 1440"
 ```
 
 Although [the documentation](https://manual.gromacs.org/current/onlinehelp/gmx-mdrun.html) should be consulted for the details, the idea here is as follows:
 
-- Executes `mdrun` - namely, the main computational chemistry engine within GROMACS
+- Execute `mdrun` - namely, the main computational chemistry engine within GROMACS
 - Make use of the `MEM tpr` file as input 
 - Run GROMACS for 10,000 steps 
 - Reset the load balancing at the half-way point 
 - Checkpoint the intermediate results of the simulation every 1440 mins (or 24 hours) 
 
-Expected output will end as follows:
+The Bourne shell and configuration initializations (for the oneAPI toolchain and GROMACS) are as before. 
 
-![GROMACS tuning example with a protein in a membrane surrounded by water](https://raw.githubusercontent.com/ianl-terawe/academy/main/hpc/throughput/media/gmx_tuning_mem.png "GROMACS tuning example with a protein in a membrane surrounded by water")
+> **Note:** 
+> The `MEM tpr` input file (namely `/mnt/hpc/benchMEM.tpr`) has been made available to Azure Batch via a remote mount. In practice, this remote mount is a Fileshare within an Azure Storage account. 
 
-Similar results can be obtained for RIB:
+Alternatively, the above command line can be captured via a script, say `gmx_mdrun_MEM.sh` as follows:
 
 ```bash
-gmx mdrun -s <PATH_TO_TPR_FILES>/benchRIB.tpr -nsteps 10000 -resethway -cpt 1440   
+#!/bin/sh
+
+# oneAPI
+
+# Set a variable
+greeting="ManageX Academy: oneAPI toolchain for GROMACS"
+
+# Print the greeting
+echo -e $greeting
+
+source /opt/intel/oneapi/setvars.sh
+
+source /usr/local/gromacs/bin/GMXRC
+
+gmx mdrun -s /mnt/hpc/benchMEM.tpr -nsteps 10000 -resethway -cpt 1440
+
+exit 0
 ```
 
-![GROMACS tuning example with a ribosome in water](https://raw.githubusercontent.com/ianl-terawe/academy/main/hpc/throughput/media/gmx_tuning_rib.png "GROMACS tuning example with a ribsome in water")
+To invoke this Bourne shell script via Azure Batch, type the following into the "Command Line" of your Academy workspace:
 
-<!--- execution a concern? --->
+```bash
+/bin/sh -c "/mnt/hpc/gmx_mdrun_MEM.sh"
+```
+
+Expected output will end as follows:
+
+![GROMACS tuning example with a protein in a membrane surrounded by water](https://raw.githubusercontent.com/ianl-terawe/academy/main/hpc/throughput/media/task_gmx_mdrun_MEM.png "GROMACS tuning example with a protein in a membrane surrounded by water")
+
+Similar results can be obtained for RIB. 
 
 Not surprisingly, the results of these runs indicate that the molecular dynamics trajectory for the 'membrane system' (namely MEM) is about a factor of 10 longer than are the corresponding results for the more complex 'ribosome system'. Molecular dynamics simulations are so compute intensive that the lifetimes of trajectories are measure in nanoseconds per day (ns/day). 
 
