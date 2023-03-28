@@ -18,7 +18,9 @@ Click on `Submit`.
 
 The purpose of this simple task is to _ensure_ GROMACS is running correctly via Azure Batch. 
 
-Once complete, you should see output similar to that shared in the previous section. 
+Once complete, you should see output similar to that shared in the previous section but now via MangeX Academy as captured below. 
+
+![Output from the `gmx --version` command via ManageX Academy](https://raw.githubusercontent.com/ianl-terawe/academy/main/hpc/throughput/media/new_task_gmx_ver.png "Output from the `gmx --version` command via ManageX Academy")
 
 GROMACS was executed on a compute node of the Azure Batch service. The compute node makes use of a customized software image. In addition to the operating system (Linux CentOS 7.9), this software image includes the Intel oneAPI toolchain along with GROMACS. 
 
