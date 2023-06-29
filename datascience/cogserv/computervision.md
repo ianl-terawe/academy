@@ -4,7 +4,7 @@
 
 To illustrate the challenge of computer vision, consider the image presented below from [this source](https://cloudblogs.microsoft.com/industry-blog/en-gb/health/2019/07/26/ai-medical-imaging-low-code/). Most would immediately recognize this as an ultrasound image (i.e., a sonogram ) of a human fetus in the womb. Whereas this is ‘obvious’ to humans, a combination of object detection and classification is required for this assessment to be made explicit via computer vision. From the right-side of the figure, it is evident that Azure Computer Vision has indeed identified the image as a medical one, and more specifically a sonogram. Through use of tags, additional details regarding detected objects are provided. In this case, for example, the additional detail conveyed via tags is quite impressive overall. As the confidence levels indicate,  there exists a 0.68 indication that the image is an X-ray – even though humans know this is clearly a sonogram. Clearly, there is room for improvement. 
 
-![object detection and classification example](/datascience/cogserv/media/us_object_classification.png "object detection and classification example")
+![object detection and classification example](https://raw.githubusercontent.com/ianl-terawe/academy/main/datascience/cogserv/media/us_object_classification.png "object detection and classification example")
 
 As the snippet of Python code below illustrates, it is merely the application of the `tag_image` method from the `computervision_client` object to the image URL of interest that is required to produce tags along the lines of those presented in the figure. 
 
